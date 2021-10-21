@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+
+}
+
+.left {
+    width: 15vw;
+    height: 100vh;
+    position:sticky;
+    
+}
+
+.right {
+    width: 85vw;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.mail {
+    width: 100%;
+    border-left: 2px solid gray;
+    justify-content: center;
+    /* border-bottom: 1px solid rgb(233, 233, 233); */
+}
+
+.inner-mail{
+    margin-left: 2rem;
+    display: flex;
+    height: 2rem;
+
+}
+
+span {
+    color: rgb(233, 88, 117);
+}
+
+.draft {
+    width: 15rem;
+}
